@@ -213,9 +213,6 @@ class Pgr_dijkstra {
              double distance);
 
      void clear() {
-         predecessors.clear();
-         distances.clear();
-         nodesInDistance.clear();
      }
 
 

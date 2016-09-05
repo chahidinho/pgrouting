@@ -56,13 +56,13 @@ pg_prove ../../src/driving_distance/test/pgtap/* -d $PGDATABASE  -U $PGUSER
 pg_prove ../../src/kdijkstra/test/pgtap/* -d $PGDATABASE  -U $PGUSER
 pg_prove ../../src/withPoints/test/pgtap/* -d $PGDATABASE  -U $PGUSER
 pg_prove ../../src/trsp/test/pgtap/* -d $PGDATABASE  -U $PGUSER
-pg_prove ../../src/tsp/test/pgtap/* -d $PGDATABASE  -U $PGUSER
+#pg_prove ../../src/tsp/test/pgtap/* -d $PGDATABASE  -U $PGUSER
 
-pg_prove ../../src/bd_astar/test/pgtap/* -d $PGDATABASE  -U $PGUSER
-pg_prove ../../src/bd_dijkstra/test/pgtap/* -d $PGDATABASE  -U $PGUSER
-pg_prove ../../src/convenience/test/pgtap/* -d $PGDATABASE  -U $PGUSER
+#pg_prove ../../src/bd_astar/test/pgtap/* -d $PGDATABASE  -U $PGUSER
+#pg_prove ../../src/bd_dijkstra/test/pgtap/* -d $PGDATABASE  -U $PGUSER
+#pg_prove ../../src/convenience/test/pgtap/* -d $PGDATABASE  -U $PGUSER
 
-pg_prove ../../src/tsp/test/performance/* -d $PGDATABASE  -U $PGUSER
+#pg_prove ../../src/tsp/test/performance/* -d $PGDATABASE  -U $PGUSER
 pg_prove ../../src/contraction/test/pgtap/* -d $PGDATABASE  -U $PGUSER
 
 if [ "$?" -ne 0 ]
